@@ -3,3 +3,8 @@
 	padding: 0;
 	border: 0;
 }
+
+html{
+    height: 2000px;
+    background-color: #F2F2F2;
+}

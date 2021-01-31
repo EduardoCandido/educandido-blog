@@ -1,1 +1,14 @@
-<header class="container" style="width: 100%; height: 100px; background-color: black;"></header>
+<header class="container-fluid" class="header-style">
+    <div class="container">
+        <div class="row">            
+            <div class="col-2">
+                <img src="../../../assets/images/logo-provisoria.png" alt="Logo do blog educandido">
+            </div>            
+            <ul class="col-sm" class="category-menu-list">
+                <ng-container *ngFor="let categoryMenu of categoryMenus">
+                    <li>{{categoryMenu}}</li>
+                </ng-container>
+            </ul>
+        </div>
+    </div>
+</header>
