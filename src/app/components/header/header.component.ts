@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {messages} from 'src/app/resources/messages';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent  {
-
+  public messages = messages;
 }
