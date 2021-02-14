@@ -6,14 +6,16 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './screens/home/home.component';
+import { ArticleCardComponent } from './components/article-card/articleCard.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    ArticleCardComponent
   ],
   imports: [
     BrowserModule,
