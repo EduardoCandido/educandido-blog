@@ -3,18 +3,20 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { ArticleCardComponent } from './article-card/articleCard.component';
 
 
 
 @NgModule({
-  declarations: [HeaderComponent],
+  declarations: [HeaderComponent, ArticleCardComponent],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
   ],
   exports:[
     HttpClientModule,
-    HeaderComponent
+    HeaderComponent,
+    ArticleCardComponent
   ]
 })
 export class SharedModule { }
