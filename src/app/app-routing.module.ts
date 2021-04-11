@@ -1,12 +1,10 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './containers/home/home.component';
+import { Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '', pathMatch: 'full',
-    component: HomeComponent
-  },
+    path: '',
+    loadChildren: () => import('./containers/home/home.module').then(module => module.HomeModule)
+  }
 ];
 
 // @NgModule({
