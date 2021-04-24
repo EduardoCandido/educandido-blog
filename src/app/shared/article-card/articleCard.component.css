@@ -1,5 +1,6 @@
 .card{
-    box-shadow: 0 0 4px black;    height: 270px;
+    box-shadow: 0 0 4px black;    
+    height: 270px;
     border-radius: 5px;
     background-color: white;
     margin-top: 10px;
@@ -7,8 +8,7 @@
 
 
 .row-img{
-    height: 50%;    
-    clip: auto;
+    height: 50%;
 }
 
 img{
@@ -23,4 +23,14 @@ img{
 
 .title-row{
     height: 50%;
+}
+
+.user-image{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+    position: absolute;
 }
