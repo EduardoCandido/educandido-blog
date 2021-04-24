@@ -1,0 +1,26 @@
+.card{
+    box-shadow: 0 0 4px black;    height: 270px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+.row-img{
+    height: 50%;    
+    clip: auto;
+}
+
+img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.title-row{
+    height: 50%;
+}
