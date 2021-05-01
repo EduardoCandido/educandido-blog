@@ -1,4 +1,4 @@
-<div class="card col-sm">
+<div class="card col-sm" [ngClass]="{'card-bigger': isBigger}" (mouseover)="isBigger = true" (mouseout)="isBigger = false">
     <div class="row row-img">
         <img class="img-fluid" src="https://blog.mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png" alt="Imagem da internet">
     </div>

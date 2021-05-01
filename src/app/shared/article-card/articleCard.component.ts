@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./articleCard.component.css']
 })
 export class ArticleCardComponent implements OnInit {
-
+  public isBigger: boolean = false
+    
   constructor() { }
 
   ngOnInit(): void {
