@@ -22,8 +22,17 @@ img{
     max-height: 100%;
 }
 
-.title-row{
+.title{
     height: 50%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 23px;
+    font-family: cursive;
+    color: #424242;
 }
 
 .user-image{
@@ -34,9 +43,4 @@ img{
     top: calc(50% - 40px);
     left: calc(50% - 40px);
     position: absolute;
-}
-
-.card-bigger{
-    z-index: 10;
-    height: 325px;
 }
